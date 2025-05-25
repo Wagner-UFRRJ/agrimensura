@@ -30,6 +30,7 @@
 		private float $latitude;
 		private float $longitude;
 		private float $altitude;
+		public int $id;
 
 		public function __construct(float $latitude, float $longitude, float $altitude = 0.0) {
 			$this->setLatitude($latitude);
